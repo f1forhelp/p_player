@@ -5,4 +5,6 @@ class PPlayer {
   Future<String?> getPlatformVersion() {
     return PPlayerPlatform.instance.getPlatformVersion();
   }
+
+
 }
